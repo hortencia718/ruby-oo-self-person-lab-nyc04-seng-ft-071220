@@ -13,12 +13,12 @@ class Person
   end
   def happiness(num)
     @happiness = num
-    # @happiness = 10
+     @happiness = 10
     if @happiness > 10 ||@happiness <  0
-    # @happiness = 0 if @happiness < 0
-    num
+     @happiness = 0 if @happiness < 0
+   
   end
 
 end
 
-# should return `true` if the happiness or hygiene points exceed seven. Otherwise they should return false.
+# should return `true` if the happiness or hygiene points exceed seven. Otherwise they should return false. if @happiness > 10 ||@happiness <  0
