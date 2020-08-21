@@ -11,7 +11,7 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
-  def happiness(num)
+ 
    
   def happiness=(num)
     @happiness = num
