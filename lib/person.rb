@@ -14,7 +14,8 @@ class Person
   def happiness(num)
     @happiness = num
      @happiness = 10
-    if @happiness > 10 ||@happiness <  0
+    if @happiness > 10 
+      @happiness <  0
      @happiness = 0 if @happiness < 0
    
   end
